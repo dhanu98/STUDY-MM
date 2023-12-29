@@ -1,0 +1,8 @@
+ 822  vi hadoop_file1.txt
+  823  cat hadoop_file1.txt 
+  824  clear
+  825  hdfs dfs -mkdir /user/cloudera/hadoop_exam
+  826* 
+  827  hdfs dfs -ls /user/cloudera/hadoop_exam
+  828  clear
+  829  hdfs dfs -checksum /user/cloudera/hadoop_exam/hadoop_file1.txt
